@@ -1,6 +1,6 @@
 # Electrophysiology-Drug-Signal-Identification
 
-This repository aims to develop a system for detecting and classifying drugs based on the electromagnetic signatures emitted from the human body when consuming drugs. The hypothesis is that different drugs generate unique electromagnetic waves, which can be captured using an antenna and then classified to identify the substance.
+This repository aims to develop a system for detecting and classifying drugs based on the electromagnetic signatures emitted from the human body when consuming drugs. The hypothesis is that different drugs make the body generate unique electromagnetic waves, which can be captured using an antenna and then classified to identify the substance.
 
 ## Table of contents
 
@@ -73,6 +73,43 @@ The script will output the predicted drug class for the input signal.
 ## Contributing
 
 Pull requests are welcome. For significant changes, please open an issue first to discuss the proposed change.
+
+## Science
+
+The release of electromagnetic radiation from the human body can be primarily attributed to thermal radiation and bioelectric activity. Here, I provide some basic equations related to these phenomena:
+
+**Thermal Radiation:**
+The human body emits thermal radiation due to its temperature. This radiation follows the Stefan-Boltzmann law:
+![CodeCogsEqn](https://user-images.githubusercontent.com/102178068/236707223-8c161cf2-9ee0-498c-8b52-59a03688ac78.png)
+
+where:
+P: Power emitted as thermal radiation (W)
+σ: Stefan-Boltzmann constant (5.67 × 10^-8 W m^-2 K^-4)
+A: Surface area of the body (m^2)
+T: Temperature of the body in Kelvin (K)
+
+**Bioelectric Activity:**
+Bioelectric phenomena occur due to the movement of charged particles, such as ions, within cells and tissues. The bioelectric potential, V, can be described by the cable equation:
+
+![CodeCogsEqn(1)](https://user-images.githubusercontent.com/102178068/236707232-737c9f14-8fa4-4335-ba68-cdead08fb256.png)
+
+
+where:
+V: Membrane potential (V)
+t: Time (s)
+λ: Electrotonic length constant (m)
+x: Distance along the cable (m)
+E: Equilibrium potential (V)
+
+**The electrotonic length constant, λ, is given by:**
+
+![CodeCogsEqn(2)](https://user-images.githubusercontent.com/102178068/236707248-6107bdfd-406d-4ae2-8373-9dae709a35a2.png)
+
+where:
+R_m: Membrane resistance per unit length (Ω m)
+R_i: Intracellular resistance per unit length (Ω m)
+Please note that these equations are general and not specific to drug-induced electromagnetic signatures. Analyzing such signatures requires capturing the electromagnetic signals from the human body and then applying signal processing and machine learning techniques to classify the drug type.
+
 
 ## License
 
