@@ -110,6 +110,7 @@ where:
 - R_i: Intracellular resistance per unit length (Ω m)
 Please note that these equations are general and not specific to drug-induced electromagnetic signatures. Analyzing such signatures requires capturing the electromagnetic signals from the human body and then applying signal processing and machine learning techniques to classify the drug type.
 
+Please note that these equations are general and not specific to drug-induced electromagnetic signatures. Analyzing such signatures requires capturing the electromagnetic signals from the human body and then applying signal processing and machine learning techniques to classify the drug type which we are attempting do to.
 
 ## License
 
