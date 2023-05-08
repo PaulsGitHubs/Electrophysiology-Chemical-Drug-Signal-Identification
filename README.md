@@ -37,16 +37,16 @@ The dataset should consist of electromagnetic signals collected from individuals
 **To prepare the dataset, follow these steps:**
 
 1. Collect raw electromagnetic signals using an antenna (done when the subject is under the influence of the drug). Antenna must be tuned to a certain frequency band to capture the electromagnetism, please reach out to me to find out more about this.
-2. Preprocess the data, removing unwanted noise and normalizing signal amplitude. I used a FASTDTW to make training data out of the audio data I collected from the signals.
+2. Preprocess the data, removing unwanted noise and normalizing signal amplitude. I used a FASTDTW to make training data out of the audio data I collected from the signals. -> as done with sound_cutter_fastdtw.py
 3. Split the dataset into training, validation, and test sets -> done by split_data.py. Currenty it is Training set size: 136, Validation set size: 29, Test set size: 30 <- this will change as we populate it with more data.
-4. Save the data as `.npy` or `.csv` files in the `data/` directory.
+4. Save the data as `.npy` or `.csv` files in the `data/npy_files` directory -> done by save_npy.py.
 
-## Model
-
-The model can be a deep learning architecture such as a Convolutional Neural Network (CNN) or Recurrent Neural Network (RNN), or an ensemble of multiple models. The input should be the preprocessed electromagnetic signals, and the output should be the predicted drug class.
+## Models
+**NOTE: TBD still working on this.**
+- Convolution Neural Network (CNN)
 
 ## Training
-
+**NOTE: TBD still working on this.**
 To train the model, run the following command:
 ```bash
 python train.py --epochs EPOCHS --batch_size BATCH_SIZE --lr LEARNING_RATE
@@ -54,7 +54,7 @@ python train.py --epochs EPOCHS --batch_size BATCH_SIZE --lr LEARNING_RATE
 where `EPOCHS`, `BATCH_SIZE`, and `LEARNING_RATE` are the desired number of epochs, batch size, and learning rate, respectively.
 
 ## Evaluation
-
+**NOTE: TBD still working on this.**
 To evaluate the trained model, run the following command:
 ```bash
 python evaluate.py --model_path PATH_TO_MODEL
@@ -63,6 +63,7 @@ python evaluate.py --model_path PATH_TO_MODEL
 The script will output the classification accuracy, confusion matrix, and other relevant metrics.
 
 ## Usage
+**NOTE: TBD still working on this.**
 To classify a new electromagnetic signal, run the following command:
 ```bash
 python predict.py --model_path PATH_TO_MODEL --signal_path PATH_TO_SIGNAL
