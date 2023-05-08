@@ -36,9 +36,9 @@ The dataset should consist of electromagnetic signals collected from individuals
 
 **To prepare the dataset, follow these steps:**
 
-1. Collect raw electromagnetic signals using an antenna.
-2. Preprocess the data, removing noise and normalizing signal amplitude.
-3. Split the dataset into training, validation, and test sets.
+1. Collect raw electromagnetic signals using an antenna (done when the subject is under the influence of the drug). Antenna must be tuned to a certain frequency band to capture the electromagnetism, please reach out to me to find out more about this.
+2. Preprocess the data, removing unwanted noise and normalizing signal amplitude. I used a FASTDTW to make training data out of the audio data I collected from the signals.
+3. Split the dataset into training, validation, and test sets -> done by split_data.py. Currenty it is Training set size: 136, Validation set size: 29, Test set size: 30 <- this will change as we populate it with more data.
 4. Save the data as `.npy` or `.csv` files in the `data/` directory.
 
 ## Model
