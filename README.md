@@ -1,6 +1,6 @@
-# Electrophysiology-Drug-Signal-Identification
+# Electrophysiology-Chemical-Drug-Signal-Identification
 
-This repository aims to develop a system for detecting and classifying drugs based on the electromagnetic signatures emitted from the human body when consuming drugs. The hypothesis is that different drugs make the body generate unique electromagnetic waves, which can be captured using an antenna and then classified to identify the substance.
+This repository aims to develop a system for detecting and classifying chemicals based on the electromagnetic signatures emitted from the human body when consuming them. The hypothesis is that different chemicals have the opportunity to make the body generate unique electromagnetic waves, which can be captured using an antenna and then classified to identify the substance. The goal is to help society with the information that can be gathered in order to help us understand the negative impacts of drugs. I see this being used for chemical research, chemical detection, chemical overdose prevention, and to find out the physiological and psychological stance of a subject (if they are angry, sad, afraid, happy, etc). We have to do what we can in order to prevent a serious rise in drug epademics around the world. Today drugs are being made in labs with the purpose of hooking subjects to them a lot faster than before. It is advisable to learn whatever we can in order to help society evolve and not degrade from the use of harmful substances.
 
 ## Table of contents
 
@@ -113,7 +113,7 @@ where:
 - R_i: Intracellular resistance per unit length (Ω m)
 Please note that these equations are general and not specific to drug-induced electromagnetic signatures. Analyzing such signatures requires capturing the electromagnetic signals from the human body and then applying signal processing and machine learning techniques to classify the drug type.
 
-Please note that these equations are general and not specific to drug-induced electromagnetic signatures. Analyzing such signatures requires capturing the electromagnetic signals from the human body and then applying signal processing and machine learning techniques to classify the drug type which we are attempting do to.
+Please note that these equations are general and not specific to drug-induced electromagnetic signatures. Analyzing such signatures requires capturing the electromagnetic signals from the human body and then applying signal processing and machine learning techniques to classify the drug type which we are attempting do to. I would find it super interesting to see some equations that relate to drug consumption and the electrophysiology of the human body.
 
 ## License
 
