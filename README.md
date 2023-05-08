@@ -36,10 +36,11 @@ The dataset should consist of electromagnetic signals collected from individuals
 
 **To prepare the dataset, follow these steps:**
 
-1. Collect raw electromagnetic signals using an antenna (done when the subject is under the influence of the drug). Antenna must be tuned to a certain frequency band to capture the electromagnetism, please reach out to me to find out more about this.
+1. Collect raw electromagnetic signals using an antenna (done when the subject is under the influence of the drug). Antenna must be tuned to a certain frequency band to capture the electromagnetism, please reach out to me to find out more about this. You are able to recieve these signals from a far distance, you do not even have to be close to the subject...
 2. Preprocess the data, removing unwanted noise and normalizing signal amplitude. I used a FASTDTW to make training data out of the audio data I collected from the signals. -> as done with sound_cutter_fastdtw.py
 3. Split the dataset into training, validation, and test sets -> done by split_data.py. Currenty it is Training set size: 136, Validation set size: 29, Test set size: 30 <- this will change as we populate it with more data.
-4. Save the data as `.npy` or `.csv` files in the `data/npy_files` directory -> done by save_npy.py.
+4. Determine data formats -> Binary File Sink (straight from source), WAV, MCSS, etc. Currently I have only done it for WAV and MCSS, but I have worked and am working on soucing data from the source (using an RTL SDR).
+5. Save the data as `.npy` or `.csv` files in the `data/npy_files` directory -> done by save_npy.py.
 
 ## Models
 **NOTE: TBD still working on this.**
