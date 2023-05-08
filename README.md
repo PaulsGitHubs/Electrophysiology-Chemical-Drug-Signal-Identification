@@ -44,6 +44,7 @@ The dataset should consist of electromagnetic signals collected from individuals
 
 ## Models
 **NOTE: TBD still working on this.**
+Listing models we currently ran it on.
 - Convolution Neural Network (CNN)
 
 ## Training
