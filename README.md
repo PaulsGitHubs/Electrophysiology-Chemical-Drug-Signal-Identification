@@ -119,4 +119,4 @@ Please note that these equations are general and not specific to drug-induced el
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the ____ - see the [LICENSE](LICENSE) file for details...
